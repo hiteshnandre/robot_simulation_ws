@@ -1,0 +1,1 @@
+/home/fox/robo_simulation_ws/build/robo_bringup/ament_cmake_core/robo_bringupConfig-version.cmake

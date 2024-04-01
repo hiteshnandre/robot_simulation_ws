@@ -1,0 +1,9 @@
+/home/fox/robo_simulation_ws/build/robo_bringup/CMakeFiles/uninstall.dir
+/home/fox/robo_simulation_ws/build/robo_bringup/CMakeFiles/robo_bringup_uninstall.dir
+/home/fox/robo_simulation_ws/build/robo_bringup/CMakeFiles/test.dir
+/home/fox/robo_simulation_ws/build/robo_bringup/CMakeFiles/edit_cache.dir
+/home/fox/robo_simulation_ws/build/robo_bringup/CMakeFiles/rebuild_cache.dir
+/home/fox/robo_simulation_ws/build/robo_bringup/CMakeFiles/list_install_components.dir
+/home/fox/robo_simulation_ws/build/robo_bringup/CMakeFiles/install.dir
+/home/fox/robo_simulation_ws/build/robo_bringup/CMakeFiles/install/local.dir
+/home/fox/robo_simulation_ws/build/robo_bringup/CMakeFiles/install/strip.dir

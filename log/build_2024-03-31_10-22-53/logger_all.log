@@ -1,0 +1,203 @@
+[0.100s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.100s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fb898d15db0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fb898e0e830>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fb898e0e830>>)
+[2.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.259s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/fox/robo_simulation_ws'
+[2.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.270s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.270s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.270s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.270s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.270s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.270s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.270s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.270s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.270s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.270s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.270s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.270s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.270s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.270s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.271s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.271s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.271s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.271s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.271s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.271s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.271s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.271s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.271s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_bringup) by extensions ['ignore', 'ignore_ament_install']
+[2.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_bringup) by extension 'ignore'
+[2.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_bringup) by extension 'ignore_ament_install'
+[2.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_bringup) by extensions ['colcon_pkg']
+[2.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_bringup) by extension 'colcon_pkg'
+[2.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_bringup) by extensions ['colcon_meta']
+[2.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_bringup) by extension 'colcon_meta'
+[2.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_bringup) by extensions ['ros']
+[2.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_bringup) by extension 'ros'
+[2.273s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robo_bringup' with type 'ros.ament_cmake' and name 'robo_bringup'
+[2.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['ignore', 'ignore_ament_install']
+[2.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ignore'
+[2.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ignore_ament_install'
+[2.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['colcon_pkg']
+[2.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'colcon_pkg'
+[2.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['colcon_meta']
+[2.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'colcon_meta'
+[2.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['ros']
+[2.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ros'
+[2.274s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_description' with type 'ros.ament_cmake' and name 'robot_description'
+[2.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.314s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.314s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.372s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/fox/robo_simulation_ws/install
+[2.373s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/fox/catch_the_turtle_ws/install
+[2.373s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/fox/ws/install
+[2.374s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 282 installed packages in /opt/ros/humble
+[2.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.886s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_args' from command line to 'None'
+[2.886s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target' from command line to 'None'
+[2.886s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.886s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[2.886s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[2.886s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[2.886s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[2.886s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[2.886s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.886s] DEBUG:colcon.colcon_core.verb:Building package 'robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fox/robo_simulation_ws/build/robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fox/robo_simulation_ws/install/robot_description', 'merge_install': False, 'path': '/home/fox/robo_simulation_ws/src/robot_description', 'symlink_install': True, 'test_result_base': None}
+[2.887s] Level 5:colcon.colcon_core.verb:set package 'robo_bringup' build argument 'cmake_args' from command line to 'None'
+[2.887s] Level 5:colcon.colcon_core.verb:set package 'robo_bringup' build argument 'cmake_target' from command line to 'None'
+[2.887s] Level 5:colcon.colcon_core.verb:set package 'robo_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.887s] Level 5:colcon.colcon_core.verb:set package 'robo_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[2.887s] Level 5:colcon.colcon_core.verb:set package 'robo_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[2.887s] Level 5:colcon.colcon_core.verb:set package 'robo_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[2.887s] Level 5:colcon.colcon_core.verb:set package 'robo_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[2.887s] Level 5:colcon.colcon_core.verb:set package 'robo_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[2.887s] Level 5:colcon.colcon_core.verb:set package 'robo_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.887s] DEBUG:colcon.colcon_core.verb:Building package 'robo_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fox/robo_simulation_ws/build/robo_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fox/robo_simulation_ws/install/robo_bringup', 'merge_install': False, 'path': '/home/fox/robo_simulation_ws/src/robo_bringup', 'symlink_install': True, 'test_result_base': None}
+[2.887s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.888s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.888s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fox/robo_simulation_ws/src/robot_description' with build type 'ament_cmake'
+[2.888s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fox/robo_simulation_ws/src/robot_description'
+[3.009s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.009s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.009s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.072s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fox/robo_simulation_ws/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fox/ws/install/camera_vision:/home/fox/catch_the_turtle_ws/install/catch_the_turtle:/opt/ros/humble /usr/bin/cmake --build /home/fox/robo_simulation_ws/build/robot_description -- -j8 -l8
+[3.547s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fox/robo_simulation_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fox/ws/install/camera_vision:/home/fox/catch_the_turtle_ws/install/catch_the_turtle:/opt/ros/humble /usr/bin/cmake --build /home/fox/robo_simulation_ws/build/robot_description -- -j8 -l8
+[3.582s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fox/robo_simulation_ws/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fox/ws/install/camera_vision:/home/fox/catch_the_turtle_ws/install/catch_the_turtle:/opt/ros/humble /usr/bin/cmake --install /home/fox/robo_simulation_ws/build/robot_description
+[3.781s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[3.782s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fox/robo_simulation_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fox/ws/install/camera_vision:/home/fox/catch_the_turtle_ws/install/catch_the_turtle:/opt/ros/humble /usr/bin/cmake --install /home/fox/robo_simulation_ws/build/robot_description
+[3.863s] Level 1:colcon.colcon_core.environment:checking '/home/fox/robo_simulation_ws/install/robot_description' for CMake module files
+[3.864s] Level 1:colcon.colcon_core.environment:checking '/home/fox/robo_simulation_ws/install/robot_description' for CMake config files
+[3.864s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'cmake_prefix_path')
+[3.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fox/robo_simulation_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.ps1'
+[3.891s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fox/robo_simulation_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.dsv'
+[3.910s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fox/robo_simulation_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.sh'
+[3.911s] Level 1:colcon.colcon_core.environment:checking '/home/fox/robo_simulation_ws/install/robot_description/bin'
+[3.911s] Level 1:colcon.colcon_core.environment:checking '/home/fox/robo_simulation_ws/install/robot_description/lib/pkgconfig/robot_description.pc'
+[3.911s] Level 1:colcon.colcon_core.environment:checking '/home/fox/robo_simulation_ws/install/robot_description/lib/python3.10/site-packages'
+[3.911s] Level 1:colcon.colcon_core.environment:checking '/home/fox/robo_simulation_ws/install/robot_description/bin'
+[3.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/fox/robo_simulation_ws/install/robot_description/share/robot_description/package.ps1'
+[3.912s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fox/robo_simulation_ws/install/robot_description/share/robot_description/package.dsv'
+[3.913s] INFO:colcon.colcon_core.shell:Creating package script '/home/fox/robo_simulation_ws/install/robot_description/share/robot_description/package.sh'
+[3.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/fox/robo_simulation_ws/install/robot_description/share/robot_description/package.bash'
+[3.940s] INFO:colcon.colcon_core.shell:Creating package script '/home/fox/robo_simulation_ws/install/robot_description/share/robot_description/package.zsh'
+[3.940s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fox/robo_simulation_ws/install/robot_description/share/colcon-core/packages/robot_description)
+[3.965s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[3.965s] Level 1:colcon.colcon_core.environment:checking '/home/fox/robo_simulation_ws/install/robot_description' for CMake module files
+[3.966s] Level 1:colcon.colcon_core.environment:checking '/home/fox/robo_simulation_ws/install/robot_description' for CMake config files
+[3.966s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'cmake_prefix_path')
+[3.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fox/robo_simulation_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.ps1'
+[3.966s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fox/robo_simulation_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.dsv'
+[3.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fox/robo_simulation_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.sh'
+[3.967s] Level 1:colcon.colcon_core.environment:checking '/home/fox/robo_simulation_ws/install/robot_description/bin'
+[3.967s] Level 1:colcon.colcon_core.environment:checking '/home/fox/robo_simulation_ws/install/robot_description/lib/pkgconfig/robot_description.pc'
+[3.967s] Level 1:colcon.colcon_core.environment:checking '/home/fox/robo_simulation_ws/install/robot_description/lib/python3.10/site-packages'
+[3.967s] Level 1:colcon.colcon_core.environment:checking '/home/fox/robo_simulation_ws/install/robot_description/bin'
+[3.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/fox/robo_simulation_ws/install/robot_description/share/robot_description/package.ps1'
+[3.968s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fox/robo_simulation_ws/install/robot_description/share/robot_description/package.dsv'
+[3.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/fox/robo_simulation_ws/install/robot_description/share/robot_description/package.sh'
+[3.969s] INFO:colcon.colcon_core.shell:Creating package script '/home/fox/robo_simulation_ws/install/robot_description/share/robot_description/package.bash'
+[3.969s] INFO:colcon.colcon_core.shell:Creating package script '/home/fox/robo_simulation_ws/install/robot_description/share/robot_description/package.zsh'
+[3.969s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fox/robo_simulation_ws/install/robot_description/share/colcon-core/packages/robot_description)
+[3.969s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fox/robo_simulation_ws/src/robo_bringup' with build type 'ament_cmake'
+[3.970s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fox/robo_simulation_ws/src/robo_bringup'
+[3.970s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.970s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fox/robo_simulation_ws/build/robo_bringup': CMAKE_PREFIX_PATH=/home/fox/robo_simulation_ws/install/robot_description:/home/fox/ws/install/my_robot_interfaces:/home/fox/ws/install/my_custom_interfaces:/home/fox/ws/install/led_battery_interface:/home/fox/ws/install/demo_bringup:/home/fox/robo_simulation_ws/install/robo_bringup:/home/fox/robo_simulation_ws/install/robo_description:/home/fox/catch_the_turtle_ws/install/turtle_catcher_bringup:/home/fox/catch_the_turtle_ws/install/custom_interface:/home/fox/catch_the_turtle_ws/install/catch_the_turtle_interface:/home/fox/ws/install/camera_vision:/home/fox/catch_the_turtle_ws/install/catch_the_turtle:/opt/ros/humble /usr/bin/cmake --build /home/fox/robo_simulation_ws/build/robo_bringup -- -j8 -l8
+[5.356s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fox/robo_simulation_ws/build/robo_bringup' returned '0': CMAKE_PREFIX_PATH=/home/fox/robo_simulation_ws/install/robot_description:/home/fox/ws/install/my_robot_interfaces:/home/fox/ws/install/my_custom_interfaces:/home/fox/ws/install/led_battery_interface:/home/fox/ws/install/demo_bringup:/home/fox/robo_simulation_ws/install/robo_bringup:/home/fox/robo_simulation_ws/install/robo_description:/home/fox/catch_the_turtle_ws/install/turtle_catcher_bringup:/home/fox/catch_the_turtle_ws/install/custom_interface:/home/fox/catch_the_turtle_ws/install/catch_the_turtle_interface:/home/fox/ws/install/camera_vision:/home/fox/catch_the_turtle_ws/install/catch_the_turtle:/opt/ros/humble /usr/bin/cmake --build /home/fox/robo_simulation_ws/build/robo_bringup -- -j8 -l8
+[5.382s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fox/robo_simulation_ws/build/robo_bringup': CMAKE_PREFIX_PATH=/home/fox/robo_simulation_ws/install/robot_description:/home/fox/ws/install/my_robot_interfaces:/home/fox/ws/install/my_custom_interfaces:/home/fox/ws/install/led_battery_interface:/home/fox/ws/install/demo_bringup:/home/fox/robo_simulation_ws/install/robo_bringup:/home/fox/robo_simulation_ws/install/robo_description:/home/fox/catch_the_turtle_ws/install/turtle_catcher_bringup:/home/fox/catch_the_turtle_ws/install/custom_interface:/home/fox/catch_the_turtle_ws/install/catch_the_turtle_interface:/home/fox/ws/install/camera_vision:/home/fox/catch_the_turtle_ws/install/catch_the_turtle:/opt/ros/humble /usr/bin/cmake --install /home/fox/robo_simulation_ws/build/robo_bringup
+[5.430s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robo_bringup)
+[5.430s] Level 1:colcon.colcon_core.environment:checking '/home/fox/robo_simulation_ws/install/robo_bringup' for CMake module files
+[5.431s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fox/robo_simulation_ws/build/robo_bringup' returned '0': CMAKE_PREFIX_PATH=/home/fox/robo_simulation_ws/install/robot_description:/home/fox/ws/install/my_robot_interfaces:/home/fox/ws/install/my_custom_interfaces:/home/fox/ws/install/led_battery_interface:/home/fox/ws/install/demo_bringup:/home/fox/robo_simulation_ws/install/robo_bringup:/home/fox/robo_simulation_ws/install/robo_description:/home/fox/catch_the_turtle_ws/install/turtle_catcher_bringup:/home/fox/catch_the_turtle_ws/install/custom_interface:/home/fox/catch_the_turtle_ws/install/catch_the_turtle_interface:/home/fox/ws/install/camera_vision:/home/fox/catch_the_turtle_ws/install/catch_the_turtle:/opt/ros/humble /usr/bin/cmake --install /home/fox/robo_simulation_ws/build/robo_bringup
+[5.432s] Level 1:colcon.colcon_core.environment:checking '/home/fox/robo_simulation_ws/install/robo_bringup' for CMake config files
+[5.432s] Level 1:colcon.colcon_core.shell:create_environment_hook('robo_bringup', 'cmake_prefix_path')
+[5.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fox/robo_simulation_ws/install/robo_bringup/share/robo_bringup/hook/cmake_prefix_path.ps1'
+[5.433s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fox/robo_simulation_ws/install/robo_bringup/share/robo_bringup/hook/cmake_prefix_path.dsv'
+[5.433s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fox/robo_simulation_ws/install/robo_bringup/share/robo_bringup/hook/cmake_prefix_path.sh'
+[5.434s] Level 1:colcon.colcon_core.environment:checking '/home/fox/robo_simulation_ws/install/robo_bringup/bin'
+[5.434s] Level 1:colcon.colcon_core.environment:checking '/home/fox/robo_simulation_ws/install/robo_bringup/lib/pkgconfig/robo_bringup.pc'
+[5.434s] Level 1:colcon.colcon_core.environment:checking '/home/fox/robo_simulation_ws/install/robo_bringup/lib/python3.10/site-packages'
+[5.434s] Level 1:colcon.colcon_core.environment:checking '/home/fox/robo_simulation_ws/install/robo_bringup/bin'
+[5.435s] INFO:colcon.colcon_core.shell:Creating package script '/home/fox/robo_simulation_ws/install/robo_bringup/share/robo_bringup/package.ps1'
+[5.435s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fox/robo_simulation_ws/install/robo_bringup/share/robo_bringup/package.dsv'
+[5.435s] INFO:colcon.colcon_core.shell:Creating package script '/home/fox/robo_simulation_ws/install/robo_bringup/share/robo_bringup/package.sh'
+[5.435s] INFO:colcon.colcon_core.shell:Creating package script '/home/fox/robo_simulation_ws/install/robo_bringup/share/robo_bringup/package.bash'
+[5.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/fox/robo_simulation_ws/install/robo_bringup/share/robo_bringup/package.zsh'
+[5.436s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fox/robo_simulation_ws/install/robo_bringup/share/colcon-core/packages/robo_bringup)
+[5.461s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robo_bringup)
+[5.462s] Level 1:colcon.colcon_core.environment:checking '/home/fox/robo_simulation_ws/install/robo_bringup' for CMake module files
+[5.462s] Level 1:colcon.colcon_core.environment:checking '/home/fox/robo_simulation_ws/install/robo_bringup' for CMake config files
+[5.462s] Level 1:colcon.colcon_core.shell:create_environment_hook('robo_bringup', 'cmake_prefix_path')
+[5.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fox/robo_simulation_ws/install/robo_bringup/share/robo_bringup/hook/cmake_prefix_path.ps1'
+[5.463s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fox/robo_simulation_ws/install/robo_bringup/share/robo_bringup/hook/cmake_prefix_path.dsv'
+[5.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fox/robo_simulation_ws/install/robo_bringup/share/robo_bringup/hook/cmake_prefix_path.sh'
+[5.463s] Level 1:colcon.colcon_core.environment:checking '/home/fox/robo_simulation_ws/install/robo_bringup/bin'
+[5.463s] Level 1:colcon.colcon_core.environment:checking '/home/fox/robo_simulation_ws/install/robo_bringup/lib/pkgconfig/robo_bringup.pc'
+[5.464s] Level 1:colcon.colcon_core.environment:checking '/home/fox/robo_simulation_ws/install/robo_bringup/lib/python3.10/site-packages'
+[5.464s] Level 1:colcon.colcon_core.environment:checking '/home/fox/robo_simulation_ws/install/robo_bringup/bin'
+[5.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/fox/robo_simulation_ws/install/robo_bringup/share/robo_bringup/package.ps1'
+[5.464s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fox/robo_simulation_ws/install/robo_bringup/share/robo_bringup/package.dsv'
+[5.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/fox/robo_simulation_ws/install/robo_bringup/share/robo_bringup/package.sh'
+[5.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/fox/robo_simulation_ws/install/robo_bringup/share/robo_bringup/package.bash'
+[5.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/fox/robo_simulation_ws/install/robo_bringup/share/robo_bringup/package.zsh'
+[5.466s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fox/robo_simulation_ws/install/robo_bringup/share/colcon-core/packages/robo_bringup)
+[5.466s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.466s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.466s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.466s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.539s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.539s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.539s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.550s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.550s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fox/robo_simulation_ws/install/local_setup.ps1'
+[5.591s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/fox/robo_simulation_ws/install/_local_setup_util_ps1.py'
+[5.622s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fox/robo_simulation_ws/install/setup.ps1'
+[5.623s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fox/robo_simulation_ws/install/local_setup.sh'
+[5.624s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/fox/robo_simulation_ws/install/_local_setup_util_sh.py'
+[5.624s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fox/robo_simulation_ws/install/setup.sh'
+[5.625s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fox/robo_simulation_ws/install/local_setup.bash'
+[5.662s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fox/robo_simulation_ws/install/setup.bash'
+[5.663s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fox/robo_simulation_ws/install/local_setup.zsh'
+[5.664s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fox/robo_simulation_ws/install/setup.zsh'

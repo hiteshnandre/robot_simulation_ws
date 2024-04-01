@@ -1,0 +1,1 @@
+/home/fox/robo_simulation_ws/build/robo_description/ament_cmake_environment_hooks/local_setup.bash

@@ -1,0 +1,31 @@
+[0.109s] Invoking command in '/home/fox/robo_simulation_ws/build/robo_bringup': CMAKE_PREFIX_PATH=/home/fox/robo_simulation_ws/install/robot_description:/home/fox/ws/install/my_robot_interfaces:/home/fox/ws/install/my_custom_interfaces:/home/fox/ws/install/led_battery_interface:/home/fox/ws/install/demo_bringup:/home/fox/robo_simulation_ws/install/robo_bringup:/home/fox/robo_simulation_ws/install/robo_description:/home/fox/catch_the_turtle_ws/install/turtle_catcher_bringup:/home/fox/catch_the_turtle_ws/install/custom_interface:/home/fox/catch_the_turtle_ws/install/catch_the_turtle_interface:/home/fox/ws/install/camera_vision:/home/fox/catch_the_turtle_ws/install/catch_the_turtle:/opt/ros/humble /usr/bin/cmake --build /home/fox/robo_simulation_ws/build/robo_bringup -- -j8 -l8
+[0.310s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.673s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.038s] -- Configuring done
+[1.142s] -- Generating done
+[1.144s] -- Build files have been written to: /home/fox/robo_simulation_ws/build/robo_bringup
+[1.171s] Invoked command in '/home/fox/robo_simulation_ws/build/robo_bringup' returned '0': CMAKE_PREFIX_PATH=/home/fox/robo_simulation_ws/install/robot_description:/home/fox/ws/install/my_robot_interfaces:/home/fox/ws/install/my_custom_interfaces:/home/fox/ws/install/led_battery_interface:/home/fox/ws/install/demo_bringup:/home/fox/robo_simulation_ws/install/robo_bringup:/home/fox/robo_simulation_ws/install/robo_description:/home/fox/catch_the_turtle_ws/install/turtle_catcher_bringup:/home/fox/catch_the_turtle_ws/install/custom_interface:/home/fox/catch_the_turtle_ws/install/catch_the_turtle_interface:/home/fox/ws/install/camera_vision:/home/fox/catch_the_turtle_ws/install/catch_the_turtle:/opt/ros/humble /usr/bin/cmake --build /home/fox/robo_simulation_ws/build/robo_bringup -- -j8 -l8
+[1.205s] Invoking command in '/home/fox/robo_simulation_ws/build/robo_bringup': CMAKE_PREFIX_PATH=/home/fox/robo_simulation_ws/install/robot_description:/home/fox/ws/install/my_robot_interfaces:/home/fox/ws/install/my_custom_interfaces:/home/fox/ws/install/led_battery_interface:/home/fox/ws/install/demo_bringup:/home/fox/robo_simulation_ws/install/robo_bringup:/home/fox/robo_simulation_ws/install/robo_description:/home/fox/catch_the_turtle_ws/install/turtle_catcher_bringup:/home/fox/catch_the_turtle_ws/install/custom_interface:/home/fox/catch_the_turtle_ws/install/catch_the_turtle_interface:/home/fox/ws/install/camera_vision:/home/fox/catch_the_turtle_ws/install/catch_the_turtle:/opt/ros/humble /usr/bin/cmake --install /home/fox/robo_simulation_ws/build/robo_bringup
+[1.215s] -- Install configuration: ""
+[1.215s] -- Execute custom install script
+[1.216s] -- Up-to-date symlink: /home/fox/robo_simulation_ws/install/robo_bringup/share/robo_bringup//launch/robo.launch.py
+[1.216s] -- Up-to-date symlink: /home/fox/robo_simulation_ws/install/robo_bringup/share/robo_bringup//launch/robo.launch.xml
+[1.216s] -- Up-to-date symlink: /home/fox/robo_simulation_ws/install/robo_bringup/share/robo_bringup//rviz/robo.rviz
+[1.217s] -- Symlinking: /home/fox/robo_simulation_ws/install/robo_bringup/share/robo_bringup//world/demo.world/model.config
+[1.229s] -- Symlinking: /home/fox/robo_simulation_ws/install/robo_bringup/share/robo_bringup//world/demo.world/model.sdf
+[1.242s] -- Up-to-date symlink: /home/fox/robo_simulation_ws/install/robo_bringup/share/ament_index/resource_index/package_run_dependencies/robo_bringup
+[1.242s] -- Up-to-date symlink: /home/fox/robo_simulation_ws/install/robo_bringup/share/ament_index/resource_index/parent_prefix_path/robo_bringup
+[1.242s] -- Up-to-date symlink: /home/fox/robo_simulation_ws/install/robo_bringup/share/robo_bringup/environment/ament_prefix_path.sh
+[1.242s] -- Up-to-date symlink: /home/fox/robo_simulation_ws/install/robo_bringup/share/robo_bringup/environment/ament_prefix_path.dsv
+[1.242s] -- Up-to-date symlink: /home/fox/robo_simulation_ws/install/robo_bringup/share/robo_bringup/environment/path.sh
+[1.243s] -- Up-to-date symlink: /home/fox/robo_simulation_ws/install/robo_bringup/share/robo_bringup/environment/path.dsv
+[1.243s] -- Up-to-date symlink: /home/fox/robo_simulation_ws/install/robo_bringup/share/robo_bringup/local_setup.bash
+[1.243s] -- Up-to-date symlink: /home/fox/robo_simulation_ws/install/robo_bringup/share/robo_bringup/local_setup.sh
+[1.244s] -- Up-to-date symlink: /home/fox/robo_simulation_ws/install/robo_bringup/share/robo_bringup/local_setup.zsh
+[1.244s] -- Up-to-date symlink: /home/fox/robo_simulation_ws/install/robo_bringup/share/robo_bringup/local_setup.dsv
+[1.244s] -- Symlinking: /home/fox/robo_simulation_ws/install/robo_bringup/share/robo_bringup/package.dsv
+[1.257s] -- Up-to-date symlink: /home/fox/robo_simulation_ws/install/robo_bringup/share/ament_index/resource_index/packages/robo_bringup
+[1.257s] -- Up-to-date symlink: /home/fox/robo_simulation_ws/install/robo_bringup/share/robo_bringup/cmake/robo_bringupConfig.cmake
+[1.257s] -- Up-to-date symlink: /home/fox/robo_simulation_ws/install/robo_bringup/share/robo_bringup/cmake/robo_bringupConfig-version.cmake
+[1.257s] -- Up-to-date symlink: /home/fox/robo_simulation_ws/install/robo_bringup/share/robo_bringup/package.xml
+[1.261s] Invoked command in '/home/fox/robo_simulation_ws/build/robo_bringup' returned '0': CMAKE_PREFIX_PATH=/home/fox/robo_simulation_ws/install/robot_description:/home/fox/ws/install/my_robot_interfaces:/home/fox/ws/install/my_custom_interfaces:/home/fox/ws/install/led_battery_interface:/home/fox/ws/install/demo_bringup:/home/fox/robo_simulation_ws/install/robo_bringup:/home/fox/robo_simulation_ws/install/robo_description:/home/fox/catch_the_turtle_ws/install/turtle_catcher_bringup:/home/fox/catch_the_turtle_ws/install/custom_interface:/home/fox/catch_the_turtle_ws/install/catch_the_turtle_interface:/home/fox/ws/install/camera_vision:/home/fox/catch_the_turtle_ws/install/catch_the_turtle:/opt/ros/humble /usr/bin/cmake --install /home/fox/robo_simulation_ws/build/robo_bringup

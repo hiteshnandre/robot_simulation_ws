@@ -1,0 +1,27 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/fox/catch_the_turtle_ws/install/custom_interface/local/lib/python3.10/dist-packages",
+        "/home/fox/catch_the_turtle_ws/install/catch_the_turtle_interface/local/lib/python3.10/dist-packages",
+        "/home/fox/catch_the_turtle_ws/install/catch_the_turtle/lib/python3.10/site-packages",
+        "/home/fox/ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages",
+        "/home/fox/ws/install/my_custom_interfaces/local/lib/python3.10/dist-packages",
+        "/home/fox/ws/install/led_battery_interface/local/lib/python3.10/dist-packages",
+        "/home/fox/ws/build/camera_vision",
+        "/home/fox/ws/install/camera_vision/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/fox/catch_the_turtle_ws/install/custom_interface/local/lib/python3.10/dist-packages",
+        "/home/fox/catch_the_turtle_ws/install/catch_the_turtle_interface/local/lib/python3.10/dist-packages",
+        "/home/fox/catch_the_turtle_ws/install/catch_the_turtle/lib/python3.10/site-packages",
+        "/home/fox/ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages",
+        "/home/fox/ws/install/my_custom_interfaces/local/lib/python3.10/dist-packages",
+        "/home/fox/ws/install/led_battery_interface/local/lib/python3.10/dist-packages",
+        "/home/fox/ws/build/camera_vision",
+        "/home/fox/ws/install/camera_vision/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "cmake.sourceDirectory": "/home/fox/robo_simulation_ws/src/robo_bringup"
+}
